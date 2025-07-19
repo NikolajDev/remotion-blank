@@ -5,9 +5,9 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="ButtonTutorial"
+        id="CollectionsAnimation"
         component={CollectionsAnimation}
-        durationInFrames={20 * 60} // Example: 20 minutes (adjust as needed)
+        durationInFrames={30 * 80} // Adjust based on total duration (~80 seconds)
         fps={30}
         width={1920}
         height={1080}
